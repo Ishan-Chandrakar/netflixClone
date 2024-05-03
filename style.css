@@ -1,0 +1,130 @@
+*{
+    margin: 0;padding: 0;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-content{
+    background-image: url(assets/img/background-image.jpg);
+    height: 700px;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+.navbar>.logo{
+    position: relative;
+    right: 110px;
+}
+.navbar>.logo>img{
+    height: 44px;
+}
+.navbar>ul{
+    list-style: none;
+    display: flex;
+    position: relative;
+    left: 75px;
+    bottom: 10px;
+}
+ul>li{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 10px 10px 10px;
+    height: 20px;
+    margin: 12px;
+}
+li>img:nth-child(1){
+    padding-right: 10px;
+}
+li>img:nth-child(2){
+    padding-left: 7px;
+}
+ul>li:nth-child(2){
+    /* padding: 10px; */
+    width: 76px;
+    text-align: center;
+    background-color: red;
+    border-color: red;
+}
+.intro{
+    margin-top: 190px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+.intro>h1{
+    font-size: 48px;
+    margin-bottom:15px ;
+    font-weight: 900;
+}
+.intro>.para{
+    font-size: 24px;
+    margin-bottom:25px ;
+}
+.intro>p{
+    font-size: 20px;  
+    margin-bottom: 20px; 
+}
+.get-mailid{
+    display: flex;
+}
+.get-mailid>.email{
+    display: inline-block;
+    border: 1px solid rgb(118, 118, 118);
+    padding: 15px 250px 15px 16px;
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-right: 10px;
+}
+.get-mailid>.get-started{
+    border-radius: 5px;
+    background-color: rgb(229, 9, 20);
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.get-mailid>.get-started:hover{
+    background-color: rgb(207, 7, 7);
+    cursor: pointer;
+}
+hr{
+    color: rgb(60, 59, 59);
+    border-style: solid;
+    border-width: 5px;
+}
+.tv{
+    background-color: black;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    padding: 4rem;
+}
+.tv>.left-text{
+    padding-left: 5rem;
+
+}
+
+.tv>.left-text>h1{
+    font-size: 3rem;
+    font-weight: 900;  
+}
+
+.tv>.left-text>p{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.tv-image>video{
+    margin-top: 25rem;
+    margin-left: 5rem;
+    height: 264px;
+}
+.tv-image>img{
+    position: relative;    
+    bottom: 365px;
+}
